@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Значение переменной itFloat с типом float равно " + itFloat);
         System.out.println("Значение переменной itDouble с типом double равно " + itDouble);
         System.out.println(" ");
-        float a = 27.2F;
+        float a = 27.12F;
         long b = 987678965549L;
         double c = 2.786;
         int d = 569;
@@ -85,8 +85,8 @@ public class Main {
         double yearUpSalaryKristina = monthUpSalaryKristina * 12;
         System.out.println(" ");
         System.out.println("Task 8");
-        System.out.println("Маша теперь получает " + monthUpSalaryMasha + " рублей. Годовой доход был " + monthSalaryMasha * 12 + " рублей, а теперь стал " + yearUpSalaryMasha + " рублей. Разница в " + (yearUpSalaryMasha - monthSalaryMasha * 12) + " рублей.");
-        System.out.println("Денис теперь получает " + monthUpSalaryDenis + " рублей. Годовой доход был " + monthSalaryDenis * 12 + " рублей, а теперь стал " + yearUpSalaryDenis + " рублей. Разница в " + (yearUpSalaryDenis - monthSalaryDenis * 12) + " рублей.");
-        System.out.println("Кристина теперь получает " + monthUpSalaryKristina + " рублей. Годовой доход " + monthSalaryKristina * 12 + "рублей, а теперь стал " + yearUpSalaryKristina + " рублей. Разница в " + (yearUpSalaryKristina - monthSalaryKristina * 12) + " рублей.");
+        System.out.println("Маша теперь получает " + monthUpSalaryMasha + " рублей. Годовой доход вырос на " + (yearUpSalaryMasha - monthSalaryMasha * 12) + " рублей.");
+        System.out.println("Денис теперь получает " + monthUpSalaryDenis + " рублей. Годовой доход вырос на " + (yearUpSalaryDenis - monthSalaryDenis * 12) + " рублей.");
+        System.out.println("Кристина теперь получает " + monthUpSalaryKristina + " рублей. Годовой доход вырос на " + (yearUpSalaryKristina - monthSalaryKristina * 12) + " рублей.");
     }
 }
